@@ -219,6 +219,10 @@
   /* Default styles */
 }
 
+.checkbox--primary .checkbox__control {
+  @apply bg-field;
+}
+
 .checkbox--secondary .checkbox__control {
   @apply shadow-none;
   background-color: var(--checkbox-control-bg);
